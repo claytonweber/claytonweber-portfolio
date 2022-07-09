@@ -3,6 +3,7 @@ import PortfolioContainer from "./components/PortfolioContainer";
 // import { useState } from "react";
 // import Nav from "./components/Nav";
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 // import { BrowserRouter, Route, NavLink } from "react-router-dom";
 
 // import About from "./pages/About";

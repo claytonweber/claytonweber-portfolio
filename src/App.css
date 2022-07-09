@@ -3,15 +3,17 @@
   padding: 0;
 }
 
+.page {
+  background-color: rgba(1, 4, 8, 0.555);
+  width: 100vw;
+  /* height: 500px; */
+}
+
 .App {
   text-align: center;
 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -42,10 +44,15 @@
     transform: rotate(360deg);
   }
 }
-
+.nav a {
+  color: rgba(1, 4, 8, 0.75);
+  font-size: 120%;
+}
 .nav {
-  background-color: cyan;
+  background-color: rgba(0, 87, 250, 0.801);
   display: flex;
+  
+
   flex-direction: row;
   text-decoration: none;
   justify-content: space-between;
@@ -65,7 +72,7 @@
   background-color: red;
 }
 .about {
-  background-color: grey;
+  /* background-color: grey; */
 
 }
 
@@ -83,4 +90,34 @@
   height: 25vh;
   width: 100vw;
   text-align: center;
+}
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  height: 250px;
+}
+
+.contact {
+  height: 83vh;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.contact h5 {
+  margin-top: 10px;
+}
+
+.footer {
+  /* position: fixed; */
+  text-align: center;
+
 }
